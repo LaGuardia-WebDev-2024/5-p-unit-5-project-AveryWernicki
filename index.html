@@ -1,17 +1,17 @@
 <!-- Unit 5 Project
 Requirements
-[  ] <div> and <span>
-[  ] height: and width:
-[  ] margin: and padding: 
-[  ] Three Images
+[ yes ] <div> and <span>
+[ yes ] height: and width:
+[ yes ] margin: and padding: 
+[  yes] Three Images
 
 Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Flexbox
+[ yes ] Feature 1 - Flexbox
 [ no ] Feature 2 - Flip Card
-[ no ] Feature 3 - Navbar
+[ yes ] Feature 3 - Navbar
 [ no ] Feature 4 - Shaking Animation
 [ no ] Feature 5 - Gradient Background
-[ no ] Feature 6 - Spotify Playlist
+[ yes ] Feature 6 - Spotify Playlist
 -->
 
 <!DOCTYPE html>
@@ -20,13 +20,350 @@ Select ONE Additional Feature to Add
 <head>
   <title>Unit 5 Project</title>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
 
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+    body {
+  background-image: url("https://sandrasshelf.com/wp-content/uploads/2021/09/39.png");
+  background-repeat: repeat;
+}
+     h4 {
+       color: rgb(250, 250, 250);}
+        h2 {
+          color: rgb(250, 250, 250);}
+          * {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 10.10%;
+  padding: 1px;
+}
+    p.solid {border-style: solid;}
   </style>
 </head>
 <body>
 
+
+
+
+<ul>
+  <li><a class="Will" href="#will">Will</a></li>
+  <li><a href="#frank">Frank</a></li>
+  <li><a href="#alice">Alice</a></li>
+  <li><a href="#synopsis">synopsis</a></li>
+</ul>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1070A3A9WzgZJdyTdJaPIc?utm_source=generator&theme=0" width="100%" height="352"frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"> 
+  </iframe>
+<h2>
+  Will
+  </h2>
  
+  <div class="row">
+  <div class="column">
+    <img src="https://cdn.glitch.global/3965976d-485b-4f29-bc3b-d1bee5b13549/IMG_6103.jpg?v=1732653796266" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://cdn.glitch.global/3965976d-485b-4f29-bc3b-d1bee5b13549/IMG_6104.jpg?v=1732653812198" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://cdn.glitch.global/3965976d-485b-4f29-bc3b-d1bee5b13549/IMG_6095.jpg?v=1732653964551" alt="Mountains" style="width:100%">
+  </div>
+</div>
+
+   <div class="row">
+  <div class="column">
+    <img src="https://cdn.glitch.global/3965976d-485b-4f29-bc3b-d1bee5b13549/IMG_6094.jpg?v=1732654042127" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://cdn.glitch.global/3965976d-485b-4f29-bc3b-d1bee5b13549/IMG_6098.jpg?v=1732653898886" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://cdn.glitch.global/3965976d-485b-4f29-bc3b-d1bee5b13549/IMG_6093.jpg?v=1732654050599" alt="Mountains" style="width:100%">
+  </div>
+</div>
+
+ 
+<h4>
+  <p class="solid">Name: William "Will" Doran
+Role: Main character, emotionally complex, struggling with guilt, self-worth, family issues, and relationships
+Appearance:
+Hair: Dark, wavy brown hair
+Eyes: Dark grey eyes with glasses 
+Physical: Taller than Frank, physically handsome but often underestimates his attractiveness. Quiet, introverted demeanor, often a little disheveled due to lack of sleep.
+Personality:
+Insecure and Self-Critical: Will is highly self-aware and often very critical of himself. He struggles with guilt, especially related to Frank’s addiction and his own complicated relationship with Alice. He questions his worth and feels responsible for things that aren’t entirely his fault.
+Emotionally Repressed: Will keeps much of his emotional struggle internalized, due to years of mental abuse from his mother and the trauma of his father’s death. He’s learned to suppress his feelings, often bottling them up until they boil over in unhealthy ways.
+Compassionate but Struggling: Will cares deeply about his friends, especially Frank, and tries his best to help others. But the weight of his own emotional turmoil makes it difficult for him to help himself or maintain healthy relationships.
+Loyal but Torn: Will’s deep loyalty to Frank often places him in difficult situations, especially with Alice. He feels torn between his loyalty to his friends and the emotional complications that arise from his relationships with them. This inner conflict drains him emotionally.
+Dry, Subtle Humor: Will has a dry sense of humor that can catch people off guard. While he’s often serious and introspective, he uses humor as a coping mechanism and a way to connect with others, particularly when things feel overwhelming or tense. His ability to make light of situations—especially through sarcasm—adds a layer of charm to his character.
+Pays Attention to Detail: Will is observant in a way that not many people are. He notices things about people and situations that others might overlook. This makes him sensitive to the emotional states of others, even if he doesn't always act on it right away. He can read people and situations well, which makes him an insightful friend and confidant.
+Key Relationships:
+With Alice:
+Validation-Seeking: Will seeks validation from Alice, but he doesn’t feel worthy of her love. His feelings for her are conflicted because of his low self-esteem and guilt over his friend Frank’s struggles. He wants Alice’s attention, but he’s unsure whether she truly sees him for who he is or if she’s just using him as a substitute for her complicated relationship with Frank.
+Emotional Conflict: He’s emotionally pulled toward her but struggles to reconcile his feelings for her with the emotional baggage he carries. His relationship with Alice feels like both a form of salvation and a source of pain, creating a vicious cycle of desire and self-doubt.
+With Frank:
+Guilt and Protectiveness: Will feels responsible for Frank's addiction and emotional turmoil. He’s protective of Frank, trying to keep him safe, but he often feels like he’s failing to truly help. This sense of guilt and the desire to help Frank constantly drives him to make sacrifices, even when it hurts him emotionally.
+Frustration and Distance: Although Will deeply cares for Frank, he’s often frustrated by Frank’s inability to make lasting changes in his life. Their friendship is marked by a constant cycle of helping and hurting, with Will becoming increasingly emotionally drained.
+With His Mother:
+Mentally Abusive: Will’s relationship with his mother is strained and emotionally abusive. Her mental illness has made her unstable and often manipulative, and Will has been subjected to her controlling and belittling behavior for much of his life. This abuse has shaped much of Will's self-image and contributed to his emotional suppression.
+Neglect and Emotional Abuse: Will’s mother is emotionally absent, and her mental illness exacerbates this. She’s unable to provide the emotional support he needs and, instead, makes him feel guilty for his own feelings. Will often feels like he’s walking on eggshells around her, never knowing when her emotional outbursts will occur.
+With His Father:
+Loss and Guilt: Will’s father died from a drug overdose, and Will carries the weight of guilt around this. He often questions whether he could have done more to prevent his father’s death, which adds to his internal conflict. He never truly got to resolve his relationship with his father, and his death has left a permanent void in Will’s life.
+Motivations and Internal Conflict:
+Desire for Emotional Connection: Will craves real, genuine emotional connections but struggles to form them due to his low self-esteem and the emotional neglect from his mother. His inability to understand or control his emotions often keeps him isolated from the people he wants to connect with the most.
+Struggle with Self-Worth: Will constantly questions his worth, especially in the context of his relationships with Frank and Alice. His emotionally abusive upbringing has left him with little sense of self-value, leading to feelings of inadequacy and a fear of rejection.
+Need to Help Others: Will often puts others’ needs before his own, especially Frank’s. He feels an overwhelming responsibility to fix Frank’s problems, but this self-imposed burden often causes him to neglect his own well-being.
+External Conflict:
+Frank’s Addiction: Will’s guilt about Frank’s addiction constantly pulls him into a cycle of self-blame and frustration. He feels like he’s failing Frank by not being able to help him overcome his issues.
+Alice’s Emotional Needs: Will’s relationship with Alice is complicated by his desire for her attention and validation. He is torn between wanting to be with her and the emotional baggage he carries from his family life and his friendship with Frank.
+</p>  
+  </h4>
+  
+  <h2>
+  frank
+  </h2>
+  
+
+  <div class="row">
+  <div class="column">
+    <img src="https://cdn.glitch.global/3965976d-485b-4f29-bc3b-d1bee5b13549/IMG_6103.jpg?v=1732653796266" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://cdn.glitch.global/3965976d-485b-4f29-bc3b-d1bee5b13549/IMG_6104.jpg?v=1732653812198" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://cdn.glitch.global/3965976d-485b-4f29-bc3b-d1bee5b13549/IMG_6095.jpg?v=1732653964551" alt="Mountains" style="width:100%">
+  </div>
+  
+</div>
+  <div class="row">
+  <div class="column">
+    <img src="https://cdn.glitch.global/3965976d-485b-4f29-bc3b-d1bee5b13549/IMG_6103.jpg?v=1732653796266" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://cdn.glitch.global/3965976d-485b-4f29-bc3b-d1bee5b13549/IMG_6104.jpg?v=1732653812198" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://cdn.glitch.global/3965976d-485b-4f29-bc3b-d1bee5b13549/IMG_6095.jpg?v=1732653964551" alt="Mountains" style="width:100%">
+  </div>
+</div>
+  <h4>
+  <p class="solid">Name: Frank Prince
+Role: Best friend to Will, emotionally volatile, struggling with addiction and self-destructive behavior
+Appearance:
+Hair: dark brown, mid length messy hair
+Eyes: light blue eyes 
+Physical: Handsome, but gaunt in a kinda weird skinny Timothée Chalamet
+Way. 
+Personality:
+Self-Destructive and Reckless: Frank struggles with addiction and a deep sense of emotional turmoil. His self-destructive tendencies keep him trapped in a cycle of bad decisions and emotional distance.
+Live in the Moment: Frank doesn’t overthink things. He’s often impulsive and lives in the moment, which can be both a strength and a flaw. His spontaneity brings excitement and unpredictability to his relationships, making him a thrilling friend to be around. He’s not bound by the usual constraints that keep others in check, and that sense of freedom is part of his appeal.
+Charming but Avoidant: Frank is charismatic and easy to get along with on the surface. However, he avoids confronting his deeper emotional issues and tends to push people away when they get too close.
+Emotionally Vulnerable but Guarded: Frank struggles with feeling unworthy of love and often hides his true emotions. He craves emotional connection but is terrified of being vulnerable.
+Dependence and Neediness: Despite his emotional walls, Frank deeply needs validation and support. However, he rejects help, pushing others away when they try to reach out.
+Not Understanding His Advantages: Frank comes from a well-off background and has a certain charm that allows him to move through life with relative ease. He doesn’t fully realize how much his attractiveness, popularity, and family status afford him. He takes these privileges for granted, never considering how much easier things are for him compared to others who don't have the same advantages. His ignorance of this privilege makes him dismissive of the struggles others face, and he can sometimes be tone-deaf when it comes to the difficulties of people around him.
+Withholding Emotion to Push Others Toward Him: Another tactic Frank uses is emotionally withdrawing or acting distant when things aren’t going his way. By pulling away, he forces others, particularly Alice and Will, to chase after him, trying to figure out what went wrong. He gets satisfaction from the attention and the emotional investment others put into trying to understand him. This behavior can make Alice and Will feel insecure, making them reach out to him more, seeking approval or a sense of connection.
+Key Relationships:
+With Will:
+Guilt and Protectiveness: Frank depends on Will for emotional support but is often too prideful to accept help. He feels a strong connection with Will but struggles to show it in healthy ways. Frank relies on Will for stability but is too emotionally closed off to fully reciprocate the care Will offers.
+With Alice:
+Toxic and Complicated: Frank and Alice’s relationship is marked by emotional intensity, love, and manipulation. Despite the chaos, Frank clings to Alice because he feels emotionally dependent on her, even though he knows their relationship is unhealthy.
+Motivations Internal Conflict:
+Addiction and Denial: Frank is caught in a cycle of addiction and denial. He wants to get better but is afraid to confront his pain. His addiction serves as both a coping mechanism and a way to avoid facing his fears.
+Fear of Vulnerability: Frank’s greatest fear is being truly vulnerable with others. He pushes people away when they get too close, which leads to loneliness and further self-destruction.
+External and Conflict:
+Addiction and Consequences: Frank’s addiction is the central external conflict in his life. It drives much of his self-destructive behavior and causes emotional rifts between him and those he loves.
+</p> 
+  <h2>
+  
+  Alice
+  </h2>
+ <div class="row">
+  <div class="column">
+    <img src="https://cdn.glitch.global/3965976d-485b-4f29-bc3b-d1bee5b13549/IMG_6103.jpg?v=1732653796266" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://cdn.glitch.global/3965976d-485b-4f29-bc3b-d1bee5b13549/IMG_6104.jpg?v=1732653812198" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://cdn.glitch.global/3965976d-485b-4f29-bc3b-d1bee5b13549/IMG_6095.jpg?v=1732653964551" alt="Mountains" style="width:100%">
+  </div>
+</div>
+  <div class="row">
+  <div class="column">
+    <img src="https://cdn.glitch.global/3965976d-485b-4f29-bc3b-d1bee5b13549/IMG_6103.jpg?v=1732653796266" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://cdn.glitch.global/3965976d-485b-4f29-bc3b-d1bee5b13549/IMG_6104.jpg?v=1732653812198" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://cdn.glitch.global/3965976d-485b-4f29-bc3b-d1bee5b13549/IMG_6095.jpg?v=1732653964551" alt="Mountains" style="width:100%">
+  </div>
+</div>
+<h4>
+ <p class="solid">Name: Alice White 
+Role: Love interest to Will and Frank, emotionally conflicted, seeks validation and self-worth
+Appearance:
+Hair: Light brown, sometimes in a messy bun
+Eyes: Blue, sharp and expressive
+Physical: tall, with a striking look that draws people in. 
+Personality:
+Validation-Seeking: Alice craves validation from both Frank and Will. She struggles with her own sense of self-worth, often seeking approval from the people around her to feel validated. Her relationship with both men highlights her need to be desired and appreciated.
+Rebellious and Craving Disorder: Alice comes from a well-ordered, pristine home where everything is perfectly maintained by her surgeon parents. She craves rebellion and chaos, which is reflected in her choice to attend an art school, date Frank, and seek disorder in her life.
+Emotionally Complex: Alice has a deep emotional conflict due to her need for validation from others and her internal knowledge of her own worth. She is aware of her power over men but struggles with balancing her independence with the relationships she forms.
+Lonely and Insecure: Despite her beauty and social standing, Alice feels lonely and unsure of her place in the world. Her parents’ emotional absence leaves her seeking connections that often result in unhealthy dependency.
+Alice’s sexuality is deeply intertwined with her search for validation, control, and freedom. She has struggled with slut-shaming and internalized shame, which fuels her need for external affirmation, especially from men like Frank and Will. Her sexual experiences are a mix of rebellion, self-expression, and insecurity. She uses her sexuality to break free from the perfection her parents impose, seeking disorder and freedom in her relationships. However, Alice also grapples with self-doubt and questions her worth, often confusing desire with self-affirmation. While she craves connection, her complex understanding of her sexuality reflects her broader journey of self-discovery and balancing the need for validation with the challenge of self-acceptance.
+Key Relationships:
+With Will:
+Emotional Tug-of-War: Alice and Will have a deep emotional connection, but Alice is torn between her attraction to him and her need for Frank’s validation. She is drawn to Will but often feels conflicted because of her attachment to Frank.
+Dependence on Will for Stability: Alice relies on Will for emotional support and validation, but she also uses him as a safety net when things aren’t going well with Frank.
+With Frank:
+Toxic and Repetitive: Alice and Frank's relationship is marked by cycles of emotional intensity and neglect. She is drawn to his chaotic nature but becomes frustrated with his inability to emotionally commit or confront his own issues.
+Emotional Attachment and Conflict: Alice is deeply emotionally attached to Frank, even though their relationship is unhealthy. She tries to make it work despite the underlying toxicity because she craves that intense emotional connection.
+Motivations and Internal Conflict:
+Desire for Control and Rebellion: Alice seeks to create chaos and rebellion in her life as a way to counterbalance the perfect, controlled world her parents have crafted for her. This rebellion gives her a sense of control and independence.
+Need for Validation: Alice’s relationships with Will and Frank stem from her need for emotional validation. She is deeply insecure and uses her relationships to feel validated, though she struggles to understand her own worth outside of them.
+</p> 
+  </h4>
+  
+  <h2>
+    synopsis 
+  </h2>
+  <h4>
+    info<span style="color:grey;font-weight:bold">: The Art of Imperfect People</span>: 
+
+1. Inciting Incident: Will’s Start at the Art School
+Introduction to Will and the Setting:
+Will Doran, a freshman, begins his journey at a competitive art school in Manhattan. He’s eager to find the perfect high school experience, hoping to leave behind the pain of his father’s death due to drug addiction and start fresh.
+Meeting Alice and Frank:
+Will is instantly drawn to Alice, but she’s already in a relationship with Frank, a talented but troubled boy. Will forms a fast friendship with Frank, which leads him to invest emotionally in both Frank and Alice’s lives.
+Vivian’s Introduction:
+Vivian is introduced as a classmate—successful, confident, and seemingly in control. However, there’s a tension between her outward appearance and her inner struggles with perfectionism. Vivian is dealing with her own sense of invisibility in her family, where her sister’s illness has made her feel like she must be perfect to be seen. Will is initially unaware of Vivian’s emotional depth and complexity, focusing more on Frank and Alice.
+
+2. Rising Action: Will’s Emotional Struggles and Growing Connection with Alice and Frank
+Will’s Growing Friendship with Frank:
+Will becomes closer to Frank, who is struggling with drug addiction. Will feels the need to save Frank and projects his unresolved guilt over his father’s death onto him. As Frank’s addiction deepens, Will’s emotional investment becomes stronger, but he feels helpless to save him.
+Vivian as an Emotional Mirror:
+While Will is increasingly consumed by his connection with Frank and Alice, Vivian starts to notice Will’s internal turmoil. She begins to sense his emotional neglect of her as he’s absorbed in his own grief and guilt. Meanwhile, she’s hiding her own struggles with perfectionism, driven by the feeling of being invisible to her family and society. She has always felt like she must be perfect to get attention, and she’s becoming emotionally distant from Will, feeling neglected.
+
+3. Climax: Frank’s Death and Will’s Spiral
+Frank’s Tragic Death:
+After Frank’s breakup with Alice, Will begins to see room for himself in Alice’s life, but Frank spirals further into his addiction. Frank dies from a drug overdose after a failed attempt to confront his old friend, Hunter. Will finds Frank’s body, and the grief overwhelms him.
+Will’s Emotional Breakdown:
+Will goes into an emotional spiral, overcome by guilt and self-loathing. He feels like everything he loves dies—his father, now Frank. He isolates himself from Alice and Vivian, consumed by grief. He withdraws into his art as an attempt to express his emotions, but his paintings become chaotic and disconnected.
+Vivian’s Emotional Distance:
+Vivian has been feeling emotionally neglected by Will and shuts herself off from him. She notices that he’s only now trying to reach out after losing Frank and Alice, and she’s hurt. She feels like he only cares now because he has no one else. Her rejection of Will’s attempts to reach out creates a wall between them, and Will becomes increasingly frustrated, unsure how to fix things.
+
+4. Falling Action: Will’s Attempts to Reconnect with Vivian
+Will’s Effort to Reconnect:
+Realizing how much he’s neglected Vivian, Will starts to make a genuine effort to reconnect with her. He begins creating mini paintings for Vivian—small, intimate works that reflect his emotional state and his desire to connect with her. However, these paintings are imperfect, just like his feelings. Each one reflects his emotional journey—sometimes chaotic, other times tender, but never perfect.
+Vivian’s Hesitation and Hurt:
+At first, Vivian rejects Will’s paintings. She feels like he’s only reaching out because of his own guilt—he’s not really seeing her for who she is, but rather as someone to fix his emotional wounds. She doesn’t want to be his second choice after Frank and Alice are gone, and she’s still hurt by his emotional neglect. She’s also unsure if Will is truly invested in her, or if he’s just using her to fill the gap left by Frank.
+Will’s Growing Frustration:
+Will becomes frustrated, feeling like his efforts are falling short. He feels like he’s messing up again, and the mini paintings—his attempt to communicate his feelings—seem useless. He doubts that anything can fix the distance between them. But instead of giving up, he acknowledges his mistakes and decides to confront the truth.
+
+5. Will’s Confession and Turning Point
+Will’s Acknowledgment:
+After feeling like his gestures have failed, Will finally speaks out, admitting his faults and acknowledging the hurt he’s caused. He stands in front of her, holding yet another mini painting, and says:
+"I know the paintings don’t fix anything, and I don’t expect you to care for me anymore. And I don’t even expect you to like them. And if it’s totally useless, and please tell me now if they are, I’ll stop bothering you with them. But all I’m trying to say is you were always there for me, even when I didn’t deserve it, and even when I didn’t fully appreciate it. And my understanding of you... I just thought I was truly always someone you didn’t pay much mind, and I didn’t want to bother you. I didn’t want to be someone to you that relied on your kindness like some sort of parasite. I was scared, I think, for you to reject me, for you to confess you were greeting me with niceties like you do with everyone, and I couldn’t handle that thought. So I avoided you."
+"And no apology is big enough because now I know I should have tried, because I ended up missing out on you. Someone who doesn’t deserve to be slumming it with me, but someone that I think, maybe I can just, maybe make feel a little better about not being perfect, because all I want from you is nothing but yourself."
+Vivian’s Response:
+After hearing Will’s confession, Vivian begins to see the genuine effort he’s made. Her emotional walls slowly come down as she realizes that he’s truly trying—not because he has to, but because he’s learning to value her for who she is, flaws and all. They begin to have a real conversation about their shared vulnerabilities, where they both admit their fears of being neglected, unseen, and imperfect.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+
+
+1. Imperfection and Self-Acceptance
+The theme of imperfection is central to the narrative, particularly in the way the characters navigate their identities and relationships. The novel critiques the societal and personal pressures to attain perfection, asserting instead that imperfection is intrinsic to the human experience. Will's emotional journey is marked by a constant internal struggle to accept himself as flawed and incomplete. Through the mini paintings, Will learns that true connection comes not from perfect actions or appearances, but from raw emotion and honest vulnerability.
+The imperfection of Frank’s addiction, as well as the unresolved guilt Will feels over his father’s death, serves as a powerful metaphor for the futility of perfectionism. Both Frank’s addiction and Will’s eventual acceptance of it point to the idea that healing and self-worth do not depend on perfection, but rather on acknowledging imperfection and embracing it as part of one's identity.
+
+2. Vulnerability and Emotional Growth
+The theme of vulnerability is explored through Will's emotional development, particularly his evolution from being emotionally repressed to embracing his raw, unfiltered feelings. Early in the narrative, Will avoids connecting with those around him due to the fear of rejection and the belief that his flaws make him unworthy of love. This is exemplified by his relationship with Alice and Frank—he distances himself emotionally from both because of his inability to handle the complexity of his emotions.
+However, as the novel progresses, Will’s vulnerability becomes a means of emotional growth. His confession to Vivian, where he admits his mistakes and acknowledges his guilt, symbolizes his movement toward self-awareness and emotional honesty. Vivian, too, demonstrates emotional growth—she begins to confront her own fear of being imperfect and learns to accept her vulnerabilities in order to forge a deeper connection with Will.
+
+3. Guilt, Grief, and Redemption
+Guilt and grief are pervasive themes throughout the novel, particularly in Will’s internal struggle. Will is haunted by the death of his father, whose addiction he could not prevent, and later by the death of Frank, whom he also feels he failed to save. These dual losses form the emotional core of Will’s narrative arc, shaping his belief that he is unworthy of love and incapable of redeeming himself.
+The theme of redemption is not framed in a traditional sense where Will is saved or healed by external forces. Rather, redemption comes through self-forgiveness—learning to live with guilt and grief and understanding that he is not responsible for the choices of others. Frank’s death, though tragic, becomes the catalyst for Will to begin reconciling with the past and letting go of the false burden of responsibility. This process is messy, non-linear, and deeply emotional, reflecting the reality that healing is not a destination but an ongoing journey.
+
+4. Identity, Self-Worth, and Perfectionism
+Will and Vivian both grapple with their sense of self-worth and the ways in which societal and familial expectations shape their identities. Will’s journey reflects a struggle for self-acceptance; his relationship with Frank’s addiction mirrors his fear of repeating history and his inability to define himself outside of past trauma. Similarly, Vivian’s desire to be perfect stems from the emotional burden of being the “invisible” child in her family, where her sister’s illness takes precedence. Her perfectionism is both a response to the neglect she feels and a defense mechanism to maintain control in an emotionally chaotic environment.
+Through their interactions and the painting metaphor, both characters come to understand that self-worth is not derived from perfection. Will learns that his flaws and mistakes do not diminish his value, and Vivian recognizes that she is worthy of love without needing to be flawless. Their relationship, grounded in mutual acceptance of imperfection, challenges conventional notions of perfection as the ultimate goal in both love and identity.
+
+5. Addiction and Self-Destruction
+Addiction plays a central role in the narrative, particularly through the character of Frank. His addiction is not presented as a moral failing, but as a tragic, cyclical affliction that shapes his relationships and ultimately leads to his death. Frank’s drug use can be interpreted as a form of self-destruction—a coping mechanism for dealing with internal pain and the inability to cope with emotional trauma. Frank’s addiction mirrors Will’s own self-destructive tendencies—Will’s emotional withdrawal from those around him and his obsessive need to be perfect both act as forms of self-destruction.
+The theme of addiction here speaks to the ways in which substance abuse and emotional repression are often connected—both are attempts to escape pain and deal with unhealed wounds. Will’s eventual realization that he cannot save Frank or control his addiction serves as a larger metaphor for the powerlessness one can feel in the face of addiction and the necessity of self-acceptance and letting go in order to heal.
+
+6. Effort and Reciprocity in Relationships
+The theme of effort in relationships is explored through the dynamic between Will and Vivian. Will’s attempt to win back Vivian’s trust through his mini paintings represents the inconsistent and often imperfect nature of emotional effort. These gestures are not about achieving perfection, but about showing sustained emotional investment. His realization that he must earn Vivian’s trust after neglecting her emotional needs reflects a deeper understanding that relationships require mutual effort, vulnerability, and reciprocity.
+Vivian, while initially hesitant, begins to recognize Will’s genuine emotional growth and effort—not only through the paintings but through his actions in supporting her as well. The theme of reciprocity extends beyond romantic gestures, emphasizing that true connection in any relationship comes from shared vulnerability and mutual respect for each other’s flaws and struggles.
+
+7. Emotional Healing and the Role of Art
+The role of art in the novel is symbolic of emotional healing. Will’s artistic journey parallels his emotional journey, with his evolving style representing the way he starts to express himself honestly. His early works are attempts to capture perfect images, while his later works, marked by abstraction and imperfection, reflect his growing acceptance of emotional chaos and his willingness to embrace vulnerability.
+Art in this context serves as a cathartic release, a means of self-expression, and a way for Will to work through his grief. The mini paintings are a physical manifestation of his emotional effort—an attempt to communicate feelings he can’t articulate. As the paintings become less about perfection and more about emotion, they underscore the idea that healing doesn’t come from fixing—it comes from expressing and accepting the pain.
+
+8. Love, Acceptance, and Redemption
+Finally, the theme of love and acceptance frames the entire novel. Will’s love for Vivian is tested by his emotional neglect, his guilt, and his fear of imperfection. However, through his art and his effort to emotionally reconnect with her, Will comes to understand that love is not about idealization or perfection, but about acceptance and vulnerability.
+Vivian’s ability to accept Will’s flaws and see his effort for what it is—genuine, though imperfect—marks the culmination of her own emotional growth. Their mutual journey is one of healing, where both characters learn to love each other not in spite of their flaws, but because of them. Through this process, they also learn that redemption doesn’t come from perfection but from the willingness to try, fail, and continue moving forward.
+
+Conclusion
+Through these interwoven themes—imperfection, vulnerability, guilt, addiction, and love—the narrative offers a nuanced exploration of the human experience. It challenges traditional notions of perfection in both personal identity and relationships, advocating instead for authentic connection through shared vulnerability, emotional effort, and acceptance. The characters’ emotional growth reflects the complexity of healing and the ongoing struggle to love ourselves and each other, despite the scars and imperfections that shape us.
+Frank’s struggle with addiction and Will’s guilt over not being able to save him reflect the ongoing opioid crisis in America, as well as the emotional toll addiction takes on families and friends. 
+
+
+  </h4>
 
 </body>
 </html>
